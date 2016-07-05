@@ -23,7 +23,7 @@ En esta primera parte del curso aprenderás los fundamentos para construir Layou
 En esta segunda parte del curso haremos una app interactiva y aprenderemos conceptos básicos de Programación Orientada a Objetos.
 
 ## What's next
-* Con la intención de que tú, [Git](https://git-scm.com/) y [Github](https://github.com/) se vayan conociendo [crea](https://github.com/wonder-coders/study-jams-beginners/issues/new) un Issue, dicen en [ChelasJs](https://github.com/javascriptmx/chelajs/issues/1) que es una buena forma de colaborar en equipo. O empieza contribuyendo al de [Resources](...) por ejemplo, seguro que todos contribuirán para que aprendamos mejor.
+* Con la intención de que tú, [Git](https://git-scm.com/) y [Github](https://github.com/) se vayan conociendo [crea](https://github.com/wonder-coders/study-jams-beginners/issues/new) un Issue, dicen en [ChelasJs](https://github.com/javascriptmx/chelajs/issues/1) que es una buena forma de colaborar en equipo. O empieza contribuyendo al de [Resources](https://github.com/wonder-coders/study-jams-beginners/issues/1) por ejemplo, seguro que todos contribuirán para que aprendamos mejor.
 * Todas las sesiones serán documentadas en la [wiki](https://github.com/wonder-coders/study-jams-beginners/wiki) de este repo, si quieres repasar lo aprendido dale una leída.
 * Y disfrutalo!
 
