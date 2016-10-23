@@ -1,4 +1,14 @@
+buildscript{
+    repositories{
+        jcenter()
+    }
+    dependencies{
+        classpath 'com.redhat.ceylon.gradle:android:1.0.1'
+    }
+}
 apply plugin: 'com.android.application'
+apply plugin: 'com.athaydes.ceylon'
+apply plugin: 'com.redhat.ceylon.gradle.android'
 
 android {
     compileSdkVersion 25
@@ -17,6 +27,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets{
+        main.java.srcDirs += 'src/main/ceylon'
+    }
+    lintOptions{
+        disable 'InvalidPackage'
+    }
 }
 
 dependencies {
@@ -26,4 +42,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
+}
+ceylon{
+    module "com.android.studyapp/1.0"
 }
